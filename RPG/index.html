@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>ORIGIN</title>
+		<link type="text/css" rel="stylesheet" href="css/stylesheet.css" />
+		<script type="text/javascript" src="js/javascript.js"></script>
+		<script type="text/javascript">
+			
+		</script>
+		<style type="text/css" media="screen,print">
+			@font-face {
+				font-family: DaysFont;
+				src:url('font/Days.otf') format('opentype');
+			}
+	
+			@font-face {
+				font-family: coalitionregular;
+				src:url('font/coalition_v2/Coalition_v2\..ttf') format('opentype');
+			}
+		</style> 
+	</head>
+	
+	<body style="background-color:black;" onload="init()">
+		<embed id="id_mus_pla" src="music/music1.mp3" autostart="false" loop="false" hidden="true"> </embed>
+		<map name="map_men">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('00',this)" shape="circle" coords="209,215,26">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('01',this)" shape="polygon" coords="126,224,107,231, 93,224,109,200,60,156,82,119,141,140,155,116, 172,127,172,146, 161,140,117,217,126,224">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('02',this)" shape="polygon" coords="172,127,172,146, 161,163,174,185,187,164,193,163,193,134,228,134,228,163,234,164,246,185,259,162, 249,145,249,127, 249,46,236,46,236,122,210,78,184,122,184,46,171,46,172,127">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('03',this)" shape="polygon" coords="249,145,249,127, 265,117,279,142,339,121,359,157,312,199,326,223, 313,230,249,224, 304,218,259,139,249,145">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('04',this)" shape="polygon" coords="313,230,249,224, 283,204,257,203,269,225,266,231,291,245,274,275,249,259,247,265,220,266,233,289, 256,289,272,298, 338,340,345,330,280,288,332,288,304,240,373,284,380,274,313,230">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('05',this)" shape="polygon" coords="256,289,272,298, 271,314,243,314,231,375,189,375,177,314,149,314, 149,296,165,288, 165,298,255,298,256,289">
+			<area href="javascript:void(0);" onmouseover="swapPicZone('06',this)" shape="polygon" coords="149,296,165,288, 188,288,200,265,174,265,171,260,147,274,130,244,154,230,151,226,164,203,138,203, 126,224,107,231, 41,272,47,282,117,240,88,288,140,289,76,329,83,340,149,296">
+		</map>
+
+		<div id="men_lef">
+            <img id="id_img_men_lef" src="img/men_lef/img_men_lef.png" />
+    	</div>
+
+        <div id="men_cen">
+            <img id="id_img_men_cen" src="img/men_cen/img_men_cen_00.png" />
+		</div>
+
+        <div id="men_rig">
+            <img id="id_img_men_rig" src="img/men_rig/img_men_rig.png" usemap="#map_men"/>
+    	</div>
+
+        <div id="inf_sta">
+           <img id="id_img_inf_sta" src="img/inf_sta/img_inf_sta_00.png" /> 
+    	</div>
+		
+		<div id="inf_sta_mid">
+           <h1>TEST</h1>
+    	</div>
+
+        <div id="inf_map">
+            <img id="id_img_inf_map" src="img/inf_map/img_inf_map_00.png" />
+        </div>
+		
+		<div id="inf_map_mid_img">
+			<img id="id_img_inf_map_mid" src="img/inf_map/plain.png" />
+		</div>
+			
+		<div id="inf_map_mid">
+				<h1>
+				Ulhyé. Un petit village près de la terre du milieu, dans la forêt. Un village dans lequel j’ai grandi en paix avec la nature. Vivre en communion avec la nature est la première chose qu’on nous apprend. Ne prendre que le nécessaire, respecter les morts et les créatures que l’on tue pour se nourrir. La vie ici est rythmée par les fêtes et les chasses mensuelles. Nous sommes un peuple de chasseurs redoutables, la forêt représente une partie de nous. Mais je me suis toujours senti différent. Mes yeux me permettent de voir mieux la nuit, j’y vois même mieux que lorsqu’il fait jour. J’aspire à un avenir glorieux. Et il débute maintenant.
+				</h1>
+				<div id="commencer" onclick="update('inf_map_mid','intro');swapMusic('1');">COMMENCER</div>
+
+		
+		</div>
+			
+		<div id="inf_des">
+            <img id="id_img_inf_des" src="img/inf_des/img_inf_des_00.png" />  
+        </div>
+		
+		<div id="inf_des_mid">
+            <h1>TEST</h1>
+        </div>
+
+		<div id="inf_inv">
+            <img id="id_img_inf_inv" src="img/inf_inv/img_inf_inv_00.png" />
+        </div>
+		
+		<div id="inf_inv_mid"
+           <h1>TEST</h1>
+    	</div>
+
+        <div id="inf_que">
+            <img id="id_img_inf_que" src="img/inf_que/img_inf_que_00.png" />
+        </div>
+
+		<div id="inf_que_mid">
+           
+    	</div>
+	</body>
+</html>
+

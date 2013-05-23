@@ -1,0 +1,33 @@
+﻿BRAINSTORM
+
+
+Il existe douze dragons:
+1. Earth/Crystal
+2. Wind/Air
+3. Flame
+4. Water
+5. Aether/Spirit
+6. Lightning
+7. Blade
+8. Continuum
+9. Dark/Night
+10. Light/Day
+12. Void
+
+
+Il existe plusieurs régions (maps à venir):
+1.(1-5) Plaines centrales x
+2.(5-10) Chaînes de montagnes */Villes anneau basses o
+3.(10-20) Forêt coté nuit x/Capitale anneau o/Désert x/Plaines du Nord x/Plaines du Sud x
+4.(20-25) Lac */Ville basse coté nuit o/Rive gauche coté jour o
+5.(25-30) Ville haute coté nuit o/Rive droite coté jour o/Marais x
+6.(30-40) Grottes x/Ruisseaux x/Fleuve gauche */Fleuve droit *
+7.(40-50) Forêt du sud externe x/Montagne coté jour */Montagne coté nuit *
+8.(50+) Volcan */Forêt du sud interne x
+
+
+Il existe deux branches en ce qui concerne l’utilisation de compétences “intelligentes”:
+Magie:
+        Élémentaire, chamanique, draconique, divine, dimensionnelle, solaire, lunaire, nécromancie, alchimie, arcanique, runique, temporelle,..
+Technologie:
+        Ionique, quantique, photonique, chimique, anti atomique, atomique, cinétique, gravitationelle, hydraulique, tellurique, phonique, ondulaire, thermique,...
